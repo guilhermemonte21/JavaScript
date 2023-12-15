@@ -41,7 +41,7 @@ export const loginResource = '/Login';
 const externalApiUri = `https://eventapiwebmonte.azurewebsites.net/`;
 
 const api = axios.create({
-    baseURL: externalApiUrl
+    baseURL: externalApiUri
 });
 
 

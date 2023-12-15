@@ -30,7 +30,7 @@ const TableDv = ({ dados, description, descricaoEvento, fnConnect = null, fnShow
       <tbody>
         {dados.map((e) => {
           return (
-            <tr className="table-data__head-row" key={tp.idEvento}>
+            <tr className="table-data__head-row" key={e.idEvento}>
             <td className="table-data__data table-data__data--big">
               {tp.nomeEvento}
             </td>
